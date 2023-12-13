@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--EXTERNAL FONT LINKS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+    <!--CUSTOM CSS FILE LINK-->
+    <link rel="stylesheet" href="about-us.css" />
+
+    <!--PAGE TITLE-->
+    <title>About Page</title>
+</head>
+<body>
+
+    <!--HEADER SECTION-->
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'>
+                    <a href="index.html">
+                        <img src='images/logo.png'/></span>
+                    </a>
+                </li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About</a>
+                    </li>
+                    <li>
+                        <a href="our-services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">Contact</a>
+                    </li>
+                    <label for="check" class="close-menu">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </label>
+                </span>
+                <label for="check" class="open-menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </label>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--ABOUT US SECTION-->
+    <section class="about-us">
+        <div class="container">
+            <div class="image-section">
+                <img src="images/about-image.png">
+            </div>
+            <div class="content-section">
+                <h1>About Us</h1>
+                <h2>Welcome to <span>Lerumo Studio</span></h2>
+                <p>
+                We are a freelance photography and videography business with over 10 years of experience capturing precious moments. Our journey started with a passion for visual storytelling and a desire to preserve memories. Over the years, we have honed our skills and expanded our services to cater to both corporate and family functions.
+                </p>
+                <p>
+                At <span>Lerumo Studio</span>, we specialize in photo and video capturing, editing, packaging, and framing. We understand the importance of preserving your special moments in the most beautiful and meaningful way possible. In addition to our core services, we also offer video and photographic restoration. If you have old VHS cassettes or photographs that you'd like to convert to digital media, we can help bring them back to life.
+                </p>
+                <p>
+                Our goal is to provide exceptional quality and customer satisfaction. We strive to create visual masterpieces that tell your unique story. Whether it's a corporate event, a wedding, or a family gathering, we will capture every moment with precision and creativity.
+                </p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </section> 
+
+    <!--FOOTER SECTION-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>Rethabile Lerumo</p>
+            </div>
+            <div class="footer-content">
+                <p>08FA2006301@myboston.co.za</p>
+            </div>
+            <div class="footer-content">
+                <p>08FA2006301</p>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>copyright &copy; 2023 <span>LerumoStudio</span>. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!--SCRIPTS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $("#word-change").typer({
+            strings: [
+            "Photographer",
+            "Videographer"
+            ],
+            typeSpeed: 200,
+            backspaceSpeed: 50,
+            backspaceDelay: 800,
+            repeatDelay: 1000,
+            repeat: true,
+            autoStart: true,
+            startDelay: 100,
+        });
+    </script>
+    
+</body>
+</html>
